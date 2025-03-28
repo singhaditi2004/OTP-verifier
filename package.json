@@ -2,12 +2,11 @@
   "name": "otp-verifier",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "dev": "next dev", 
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "@sendgrid/mail": "^8.1.4",
     "next": "15.2.4",
